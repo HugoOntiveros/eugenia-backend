@@ -4,6 +4,10 @@
   "description": "Backend for Eugenia Bakery project",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,27 @@
   "bugs": {
     "url": "https://github.com/HugoOntiveros/eugenia-backend/issues"
   },
-  "homepage": "https://github.com/HugoOntiveros/eugenia-backend#readme"
+  "homepage": "https://github.com/HugoOntiveros/eugenia-backend#readme",
+  "dependencies": {
+    "celebrate": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "Start": "node index",
+    "dev": "nodemon index",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "express",
+    "api",
+    "mvc",
+    "devf"
+  ]
 }
