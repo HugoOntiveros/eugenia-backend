@@ -19,9 +19,10 @@ const clientSchema = new Schema({
   },
   email: {
     type: String,
+    required: true,
   },
   address: {
-    type: Number,
+    type: String,
     required: true,
   },
 }, {
