@@ -9,7 +9,7 @@ router.post('/clients',
   ClientValidator.create, ClientController.create);
 
 router.get('/clients',
-  ClientValidator.findAll);
+  ClientController.findAll);
 
 router.get('/clients/:id',
   ClientValidator.findOne, ClientController.findOne);

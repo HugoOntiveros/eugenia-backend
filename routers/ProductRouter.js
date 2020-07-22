@@ -9,7 +9,7 @@ router.post('/products',
   ProductValidator.create, ProductController.create);
 
 router.get('/products',
-  ProductValidator.findAll);
+  ProductController.findAll);
 
 router.get('/products/:id',
   ProductValidator.findOne, ProductController.findOne);

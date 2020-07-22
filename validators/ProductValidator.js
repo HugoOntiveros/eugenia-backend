@@ -5,8 +5,9 @@ module.exports = {
     [Segments.BODY]: Joi.object().keys({
       name: Joi.string().required(),
       description: Joi.string().required(),
-      image: Joi.string().email().required(),
-      price: Joi.string().required(),
+      class: Joi.string().required(),
+      image: Joi.string().required(),
+      price: Joi.number().required(),
     }),
   }),
   findOne: celebrate({
